@@ -2,7 +2,8 @@ import React from "react";
 import {View, ScrollView} from 'react-native';
 // import SampleComponent from './samplecomponent';
 // import StylingReactNativeComponent from './stylingreactnativecomponent';
-import MateriFlexBox from "./materiflexbox";
+import FlexBox from "./pages/materiflexbox";
+import Position from "./pages/PositionReactNative";
 
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
       <ScrollView>
         {/* <SampleComponent /> */}
         {/* <StylingReactNativeComponent /> */}
-        <MateriFlexBox />
+        <FlexBox />
+        <Position />
       </ScrollView>
     </View>
   );
